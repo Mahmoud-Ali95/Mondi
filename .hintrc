@@ -1,0 +1,24 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "axe/name-role-value": [
+      "default",
+      {
+        "link-name": "off"
+      }
+    ]
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not edge <= 105",
+    "not ios_saf <= 16",
+    "not safari <= 16",
+    "not and_chr <= 105",
+    "not chrome <= 105",
+    "not firefox <= 104",
+    "not samsung <= 18"
+  ]
+}
